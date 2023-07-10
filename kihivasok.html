@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kihívások - Streaming szolgáltatások</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="scripts/styleswitcher.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/stilus.css"
+      title="normal"
+    />
+    <link
+      rel="alternate stylesheet"
+      type="text/css"
+      href="css/nagybetus.css"
+      title="nagybetus"
+    />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+      <div class="kipozicional">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+      </div>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary bg-dark"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="nav-current d-block d-lg-none" aria-current="page" href="#"
+            >Kihívások</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Kezdőlap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="szolgaltatok.html">Szolgáltatók</a>
+              </li>
+              <li class="nav-item d-none d-lg-block">
+                <a
+                  class="nav-link active"
+                  href="kihivasok.html"
+                  aria-current="page"
+                  >Kihívások</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="velemeny.html">Vélemény</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="nagybetu"
+                  href="#"
+                  onclick="setActiveStyleSheet('nagybetus'); return false;"
+                  >Nagybetűs változat</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="normalbetu"
+                  href="#"
+                  onclick="setActiveStyleSheet('normal'); return false;"
+                  >Normál változat</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container mt-2" id="tartalom">
+      <section>
+        <h1>A <span lang="en">streaming</span> iparág előtt álló kihívások</h1>
+        <p>
+          Bár a <em><span lang="en">streaming</span> iparág</em> az elmúlt néhány évben
+          hatalmas növekedésnek és népszerűségnek örvendett, nem mentes a
+          kihívásoktól.
+        </p>
+        <video
+          controls
+          poster="./kepek/video-capture-2190.png"
+          class="w-100 my-3"
+        >
+          <source
+            src="./videok/thestreamingwarisending.mp4"
+            type="video/mp4"
+          />
+          <p>
+            A böngészője nem támogatja a videóállomány HTML5 szerinti beágyazott
+            lejátszását.
+          </p>
+          <p>
+            <a href="./videok/thestreamingwarisending.mp4">
+              A példa állományt letöltheti mp4 formátumban.
+            </a>
+          </p>
+        </video>
+        <p>
+          <a
+            href="transcript/streamingwar.html"
+            class="átirat-link"
+            target="_blank"
+            >A videó történéseinek átiratát ide kattintva megtekintheti</a
+          >
+        </p>
+        <p>
+          Íme néhány a <em><span lang="en">streaming</span> iparág</em> előtt álló
+          manapság legnagyobb kihívások közül…
+        </p>
+        <article>
+          <h2>Tartalomköltségek</h2>
+          <p>
+            A tartalom előállításának és beszerzésének költségei egyre drágábbak
+            lettek, és ez nyomást gyakorolt a
+            <em><span lang="en">streaming</span> szolgáltatásokra</em>, hogy megtalálják
+            a nyereségesség megőrzésének módját. Ez különösen igaz a piac új
+            belépőire, akiknek fel kell venniük a versenyt a már bevált, mély
+            zsebekkel rendelkező játékosokkal.
+          </p>
+        </article>
+        <article>
+          <h2>Verseny</h2>
+          <p>
+            Az <strong>elérhető <span lang="en">streaming</span> szolgáltatások</strong> növekvő
+            számával az előfizetőkért folytatott verseny kiélezetté vált.
+            Mindegyik szolgáltatás versenyben van a piaci részesedésért, és ez a
+            fogyasztói lehetőségek megszaporodásához vezetett. Az újabb
+            játékosok számára egyre nehezebb előfizetőket vonzani és megtartani,
+            mivel olyan ismert játékosokkal versenyeznek, mint a
+            <span lang="en">Netflix</span> és az
+            <span lang="en">Amazon Prime Video</span>.
+          </p>
+        </article>
+        <article>
+          <h2>Technikai kihívások</h2>
+          <p>
+            A <em><span lang="en">stream</span>elési szolgáltatások</em> robusztus és
+            megbízható műszaki infrastruktúrára támaszkodnak, hogy tartalmat
+            juttathassanak el a nézőkhöz. A műszaki hibák, hálózati kimaradások
+            és egyéb problémák frusztráló felhasználói élményhez vezethetnek,
+            ami előfizetői lemorzsolódáshoz vezethet.
+          </p>
+        </article>
+        <article>
+          <h2>Kalózkodás</h2>
+          <p>
+            A kalózkodás továbbra is jelentős kihívást jelent a
+            <em><span lang="en">streaming</span> iparág</em> számára. Az illegális
+            <em><span lang="en">streaming</span> webhelyek</em> és alkalmazások lehetővé
+            teszik a nézők számára, hogy fizetés nélkül hozzáférjenek a szerzői
+            jog által védett tartalmakhoz, és ez hatással lehet a legális
+            <span lang="en">streaming</span> szolgáltatások bevételére.
+          </p>
+        </article>
+        <article>
+          <h2>Szabályozás</h2>
+          <p>
+            A <span lang="en">streaming</span> iparág még mindig a kezdeti
+            szakaszában van, és a szabályozás még nem teljesen kialakult. Ez a
+            cenzúrával, a szerzői jogokkal és az engedélyezéssel kapcsolatos
+            problémákhoz vezetett. Ahogy az iparág érik, valószínű, hogy a
+            szabályozók új szabályokat és előírásokat vezetnek be, amelyek
+            hatással lehetnek a <span lang="en">streaming</span>
+            szolgáltatások működésére.
+          </p>
+        </article>
+        <article>
+          <h2>Töredezettség</h2>
+          <p>
+            A <span lang="en">streaming</span> iparág széttagoltsága egyre
+            nagyobb aggodalomra ad okot. Ahogy egyre több
+            <span lang="en">streaming</span> szolgáltatás lép be a piacra, a
+            fogyasztók azzal a kihívással szembesülnek, hogy több szolgáltatásra
+            is elő kell fizetniük a kívánt tartalom eléréséhez. Ez az
+            előfizetési fáradtsághoz és a nézők költségeinek növekedéséhez
+            vezethet.
+          </p>
+        </article>
+        <article>
+          <h2>Fogyasztói adatok védelme</h2>
+          <p>
+            Mivel a <strong><span lang="en">streaming</span> szolgáltatások</strong> több adatot
+            gyűjtenek a felhasználóikról, aggodalmak merülnek fel az adatok
+            védelmével és biztonságával kapcsolatban. A fogyasztók egyre jobban
+            tudatában vannak a <span lang="en">streaming</span> szolgáltatások
+            által róluk gyűjtött adatoknak, és ez fokozott szabályozást és
+            átláthatóságot eredményezett.
+          </p>
+        </article>
+        <article>
+          <h2>Minőség-ellenőrzés</h2>
+          <p>
+            A <span lang="en">streaming</span> szolgáltatásokban elérhető
+            tartalom növekvő mennyiségével aggályok merülnek fel a
+            minőségellenőrzéssel kapcsolatban. A tartalom puszta mennyisége
+            megnehezítheti az állandó minőség fenntartását, és ez hatással lehet
+            a felhasználói élményre.
+          </p>
+        </article>
+        <article>
+          <h2>Nemzetközi terjeszkedés</h2>
+          <p>
+            Számos <strong><span lang="en">streaming</span> szolgáltatás</strong> szeretne
+            globálisan terjeszkedni, és ez egyedülálló kihívásokat jelent. A
+            különböző országokban eltérő szabályozások, kultúrák és preferenciák
+            vonatkoznak a tartalomra. A
+            <span lang="en">streaming</span> szolgáltatásoknak meg kell
+            felelniük ezeknek a kihívásoknak, hogy sikeresek lehessenek a
+            nemzetközi piacokon.
+          </p>
+        </article>
+        <article>
+          <h2>Előfizetési modell</h2>
+          <p>
+            Végül, a legtöbb <span lang="en">streaming</span> szolgáltatás által
+            használt előfizetési modell nem biztos, hogy hosszú távon
+            fenntartható. A fogyasztók végül belefáradhatnak abba, hogy havi
+            díjat kell fizetniük a tartalomhoz való hozzáférésért, és ez
+            megváltoztathatja a <span lang="en">streaming</span>
+            szolgáltatások működését.
+          </p>
+        </article>
+        <article>
+          <h2>Összességében</h2>
+          <p>
+            A <span lang="en">streaming</span> iparág számos kihívással néz
+            szembe, miközben folyamatosan növekszik és fejlődik. A
+            tartalomköltségek, a verseny, a technikai kihívások, a kalózkodás, a
+            szabályozás, a töredezettség, az adatvédelem, a minőség-ellenőrzés,
+            a nemzetközi terjeszkedés és az előfizetési modell csak néhány azon
+            kihívások közül, amelyeket a
+            <span lang="en">streaming</span> szolgáltatásoknak le kell küzdeniük
+            ahhoz, hogy sikeresek maradjanak. Ahogy az iparág fejlődik, érdekes
+            lesz látni, hogy a <span lang="en">streaming</span> szolgáltatások
+            hogyan újítanak, és hogyan alkalmazkodnak ezekhez a kihívásokhoz.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top px-4 mt-auto"
+    >
+      <div class="d-flex align-items-center">
+        <a
+          href="https://www.facebook.com/profile.php?id=100078412884013"
+          class="footer-link"
+          target="_blank"
+          >© Készítette: Gerzsenyi Patrik</a
+        >
+      </div>
+      <div class="d-flex align-items-center">
+        <object
+          class="github-svg"
+          type="image/svg+xml"
+          data="ikonok/github-mark.svg"
+        >
+          Github logó
+        </object>
+        <a href="https://github.com/vyperrrr" class="footer-link" target="_blank">
+          @vyperrrr
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

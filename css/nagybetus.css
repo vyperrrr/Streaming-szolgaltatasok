@@ -1,0 +1,36 @@
+﻿/* nagybetűs stílus */
+@import url('stilus.css');
+
+body
+{
+	font-size: 1.6em;	
+}
+
+h1
+{
+	font-size: 2em;
+}
+
+h2
+{
+	font-size: 1.8em;
+}
+
+h3
+{
+	font-size: 1.6em;
+}
+
+button.btn
+{
+	font-size: 1.1em;
+}
+
+@media only screen and (max-width: 768px) {
+	body
+	{
+		font-size: 1.3em;	
+	}	
+}
+
+

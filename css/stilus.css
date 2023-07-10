@@ -1,0 +1,156 @@
+body
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+main.container
+{
+  max-width: 800px;
+}
+
+nav.navbar
+{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+nav .nav-current
+{
+  color: white;
+  text-decoration: none;
+}
+
+img, table, video
+{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+main a
+{
+  color: #0b4eb1;
+}
+
+main a:visited
+{
+  color: #0D6EFD;
+}
+
+main table a
+{
+  color: #a4c4f4;
+}
+
+main table a:visited
+{
+  color: #6f8db8;
+}
+
+.bg-tower
+{
+  background: url(../kepek/osman-rana-dI9KhXi0ooE-unsplash.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+
+.kipozicional a
+{
+  position: absolute; 
+  left:-9999px;
+}
+
+.kipozicional a:focus
+{
+  position:static; 
+  background: white;
+}
+
+.footer-link
+{
+  color: black;
+  text-decoration-color: black;
+}
+
+.footer-link:visited
+{
+  text-decoration-color: #6b6b6b;
+  color: #6b6b6b;
+}
+
+.github-svg
+{
+  height: 28px;
+}
+
+.index-link
+{
+  color: #0b4eb1;;
+}
+
+.index-link:visited
+{
+  color: #0D6EFD;
+}
+
+@media print 
+{
+  @page 
+  {
+    size: auto;  
+    margin: 0mm; 
+  }
+
+  a
+  {
+    color: black !important;
+    text-decoration: none;
+  }
+
+  a.átirat-link
+  {
+    display: none;
+  }
+
+  header
+  {
+    display: none;
+  }
+
+  video
+  {
+    display: none;
+  }
+
+  img 
+  {
+    width: 40%;
+    height: auto;
+  }
+
+  table > caption
+  {
+    display: none;
+  }
+
+  table > *
+  {
+    color: black !important;
+  }
+
+  footer
+  {
+    display: none;
+  }
+
+  table, img
+  {
+    box-shadow: none;
+  }
+
+  .bg-tower
+  {
+    background: none;
+  }
+
+  a[target="_blank"]::after {
+    content: " (" attr(href) ")";
+  }
+}

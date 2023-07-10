@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Szolgáltatók - Streaming szolgáltatások</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="scripts/styleswitcher.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/stilus.css"
+      title="normal"
+    />
+    <link
+      rel="alternate stylesheet"
+      type="text/css"
+      href="css/nagybetus.css"
+      title="nagybetus"
+    />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+      <div class="kipozicional">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+      </div>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary bg-dark"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="nav-current d-block d-lg-none" aria-current="page" href="#"
+            >Szolgáltatók</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Kezdőlap</a>
+              </li>
+              <li class="nav-item d-none d-lg-block">
+                <a
+                  class="nav-link active"
+                  href="szolgaltatok.html"
+                  aria-current="page"
+                  >Szolgáltatók</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kihivasok.html">Kihívások</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="velemeny.html">Vélemény</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="nagybetu"
+                  href="#"
+                  onclick="setActiveStyleSheet('nagybetus'); return false;"
+                  >Nagybetűs változat</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="normalbetu"
+                  href="#"
+                  onclick="setActiveStyleSheet('normal'); return false;"
+                  >Normál változat</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container mt-2" id="tartalom">
+      <section>
+        <h1><span lang="en">Streaming</span> szolgáltatások típusai</h1>
+        <p>
+          A <strong><span lang="en">streaming</span> szolgáltatások</strong> többféle típusa is
+          elérhető, az ingyenes, hirdetésekkel támogatott platformoktól a
+          prémium, előfizetéses szolgáltatásokig. A legnépszerűbb lehetőségekről
+          lentebb olvashat.
+        </p>
+        <article>
+          <h2><span lang="en">Netflix</span></h2>
+          <p>
+            A <span lang="en">Netflix</span> vezető streaming szolgáltatás,
+            amely filmek, tévéműsorok, dokumentumfilmek és eredeti tartalmak
+            széles választékát kínálja előfizetők millióinak világszerte. A
+            céget 1997-ben alapították DVD-kölcsönzési szolgáltatásként, de
+            azóta a szórakoztatóipar meghatározó szereplőjévé nőtte ki magát.
+          </p>
+          <figure>
+            <a href="kepek/Netflix-logo-red-black-png.png">
+              <img
+                src="kepek/Netflix-logo-red-black-png.png"
+                class="img-fluid my-3"
+                title="Netflix logó"
+                alt="Netflix logó"
+              />
+            </a>
+          </figure>
+        </article>
+        <article>
+          <h3>Tartalom</h3>
+          <p>
+            Ma a <span lang="en">Netflix</span> hatalmas tartalomkönyvtárral
+            rendelkezik, amely különféle eszközökről érhető el, beleértve az
+            okostelefonokat, táblagépeket, okostévéket és játékkonzolokat. A
+            platform licencelt és eredeti tartalom keverékét kínálja, amely
+            megfelel a különböző ízléseknek és preferenciáknak. A népszerű
+            tévéműsoroktól, mint például a
+            <span lang="en">Stranger Things</span> és a
+            <span lang="en">The Crown</span> a kritikusok által elismert
+            filmekig, mint a <span lang="en">Roma</span> és a
+            <span lang="en">The Irishman</span>, a
+            <span lang="en">Netflix</span>
+            mindenki számára kínál valamit.
+          </p>
+        </article>
+        <article>
+          <h3>Térhódításának okai</h3>
+          <p>
+            A <span lang="en">Netflix</span> sikerének egyik fő oka a személyre
+            szabott ajánlási algoritmus, amely a felhasználó megtekintési
+            előzményei és preferenciái alapján javasol tartalmat. Ez az
+            algoritmus segít a felhasználóknak olyan új tartalmak
+            felfedezésében, amelyeket egyébként nem találtak volna meg, és ez
+            jelentős mértékben elősegítette a felhasználók elköteleződését és
+            megtartását.
+          </p>
+          <p>
+            Egy másik tényező, amely megkülönbözteti a
+            <span lang="en">Netflix</span>et, az az elkötelezettsége, hogy
+            eredeti tartalmat állítson elő. A cég jelentős összegeket fektetett
+            be olyan kiváló minőségű, exkluzív tartalmak előállításába, amelyek
+            más platformon nem érhetők el. A
+            <span lang="en">Netflix</span> legnépszerűbb eredeti műsorai közé
+            tartozik a <span lang="en">House of Cards</span>, az
+            <span lang="en">Orange is the New Black</span> és a
+            <span lang="en">Narcos</span>. A cég olyan díjnyertes filmeket is
+            készített, mint a Házassági történet, a
+            <span lang="en">The Trial of the Chicago 7</span> és a
+            <span lang="en">Mank</span>.
+          </p>
+          <p>
+            A <span lang="en">Netflix</span> sikere nem maradt észrevétlen, és
+            sok más <span lang="en">streaming</span> szolgáltatást is inspirált
+            a piacra lépésre. A <span lang="en">Netflix</span>nek azonban
+            sikerült megőriznie dominanciáját a folyamatos innovációval és a
+            változó fogyasztói trendekhez való alkalmazkodással. A vállalat új
+            piacokon való indulással és a helyi tartalomkészítőkkel való
+            partneri együttműködéssel is bővítette hatókörét a régióspecifikus
+            tartalmak előállításában.
+          </p>
+          <p>
+            Összefoglalva, a <span lang="en">Netflix</span> forradalmasította a
+            szórakozás fogyasztásának módját, és továbbra is meghatározó
+            szereplő a <span lang="en">streaming</span> iparágban. Hatalmas
+            tartalomkönyvtárával, személyre szabott ajánlásaival és az eredeti
+            műsorok iránti elkötelezettségével világszerte nézők millióinak
+            kedvenc célpontjává vált.
+          </p>
+        </article>
+        <article>
+          <h2><span lang="en">Hulu</span></h2>
+          <p>
+            A <span lang="en">Hulu</span> egy népszerű
+            <span lang="en">streaming</span> szolgáltatás, amely tévéműsorok,
+            filmek és eredeti tartalmak széles választékát kínálja az Egyesült
+            Államokban és Japánban élő előfizetőknek. A szolgáltatás 2007-ben
+            indult az <span lang="en">NBCUniversal</span>, a
+            <span lang="en">Fox Broadcasting Company</span> és a
+            <span lang="en">Disney-ABC Television Group</span>
+            vegyesvállalataként.
+          </p>
+          <figure>
+            <a href="kepek/Hulu-Logo.jpg">
+              <img
+                src="kepek/Hulu-Logo.jpg"
+                class="img-fluid my-3"
+                title="Hulu logó"
+                alt="Hulu logó"
+              />
+            </a>
+          </figure>
+        </article>
+        <article>
+          <h3>Tartalom</h3>
+          <p>
+            A <span lang="en">Hulu</span> könyvtára különféle hálózatok
+            jelenlegi és korábbi TV-műsorainak keverékét tartalmazza, beleértve
+            az <span lang="en">NBC</span>-t, az <span lang="en">ABC</span>-t, a
+            <span lang="en">Fox</span>-ot és még sok mást. A platform filmek,
+            dokumentumfilmek és eredeti <span lang="en">Hulu</span>-tartalom
+            növekvő választékát is kínálja, amelyek egyetlen más
+            <span lang="en">streaming</span> szolgáltatásban sem érhetők el.
+          </p>
+        </article>
+        <article>
+          <h3>Térhódításának okai</h3>
+          <p>
+            A <span lang="en">Hulu</span> egyik egyedülálló tulajdonsága, hogy a
+            következő napon képes <span lang="en">streamel</span>ni a népszerű
+            tévéműsorokat a nagyobb hálózatokról. Ez azt jelenti, hogy a nézők a
+            tévéadás utáni napon utolérhetik kedvenc műsoraikat. A
+            <span lang="en">Hulu</span> exkluzív tartalmak széles választékával
+            is rendelkezik, köztük olyan sikerműsorokat, mint a
+            <span lang="en">The Handmaid's Tale</span>, a
+            <span lang="en">Little Fires Everywhere</span> és a
+            <span lang="en">PEN15</span>.
+          </p>
+          <p>
+            A <span lang="en">Netflix</span>hez hasonlóan a
+            <span lang="en">Hulu</span> is sokat fektetett az eredeti tartalom
+            előállításába. A platform olyan kritikusok által elismert műsorokat
+            készített, mint a <span lang="en">Ramy</span>, a
+            <span lang="en">Casual</span> és a <span lang="en">The Act</span>. A
+            <span lang="en">Hulu</span> dokumentumfilmekből is egyre bővül a
+            választék, köztük a <span lang="en">Fyre Fraud</span> és a
+            <span lang="en"></span>, amelyek széles körben elismertek.
+          </p>
+          <p>
+            A <span lang="en">Hulu</span> számos előfizetési lehetőséget kínál,
+            beleértve a hirdetéseket tartalmazó alapcsomagot, a hirdetésmentes
+            előfizetést és az élő TV-csomagot, amely több mint 65 élő
+            TV-csatorna elérését tartalmazza. A szolgáltatás számos eszközön
+            elérhető, beleértve az okostelefonokat, táblagépeket, okostévéket és
+            játékkonzolokat.
+          </p>
+          <p>
+            Az elmúlt években a <span lang="en">Hulu</span> megnövekedett
+            versennyel szembesült más
+            <span lang="en">streaming</span> szolgáltatásokkal, mint például a
+            <span lang="en">Netflix</span>, az
+            <span lang="en">Amazon Prime Video</span> és a
+            <span lang="en">Disney+</span>. A platform azonban továbbra is
+            népszerű választás azoknak a nézőknek, akik szeretnének hozzáférni a
+            jelenlegi és korábbi tévéműsorokhoz, valamint exkluzív eredeti
+            <span lang="en">Hulu</span>-tartalomhoz.
+          </p>
+          <p>
+            Összefoglalva, a <span lang="en">Hulu</span> egy népszerű
+            <span lang="en">streaming</span> szolgáltatás, amely TV-műsorok,
+            filmek és eredeti tartalmak széles skáláját kínálja az Egyesült
+            Államokban és Japánban élő előfizetőknek. A népszerű TV-műsorok
+            másnapi <span lang="en">stream</span>elésével és az eredeti tartalom
+            növekvő könyvtárával a <span lang="en">Hulu</span> népszerű
+            választássá vált azon nézők körében, akik naprakészek szeretnének
+            maradni kedvenc műsoraikkal kapcsolatban, és új tartalmakat
+            szeretnének felfedezni.
+          </p>
+        </article>
+        <article>
+          <h2><span lang="en">Amazon Prime Video</span></h2>
+          <p>
+            Az <span lang="en">Amazon Prime Video</span> egy népszerű
+            <span lang="en">streaming</span> szolgáltatás, amely az Amazon Prime
+            előfizetés része. A szolgáltatás filmek, tévéműsorok és eredeti
+            tartalmak széles választékát kínálja az előfizetőknek több mint 200
+            országban.
+          </p>
+          <figure>
+            <a href="kepek/primevideo-seo-logo.png">
+              <img
+                src="kepek/primevideo-seo-logo.png"
+                class="img-fluid my-3"
+                title="Amazon Prime Video logó"
+                alt="Amazon Prime Video logó"
+              />
+            </a>
+          </figure>
+        </article>
+        <article>
+          <h3>Tartalom</h3>
+          <p>
+            Az <span lang="en">Amazon Prime Video</span> egyik fő előnye a
+            filmek és TV-műsorok kiterjedt könyvtára. A platform licencelt és
+            eredeti tartalom keverékét kínálja, beleértve a népszerű
+            TV-műsorokat, mint a
+            <span lang="en">The Marvelous Mrs. Maisel</span> és a
+            <span lang="en">Jack Ryan</span>, valamint a sikerfilmeket, mint a
+            <span lang="en">Borat Subsequent Moviefilm</span> és a
+            <span lang="en">Sound of Metal</span>. Az
+            <span lang="en">Amazon Prime Video</span> nemzetközi tartalmak
+            széles választékával is rendelkezik, beleértve a bollywoodi filmeket
+            és a koreai drámákat.
+          </p>
+        </article>
+        <article>
+          <h3>Térhódításának okai</h3>
+          <p>
+            A filmek és TV-műsorok könyvtára mellett az
+            <span lang="en">Amazon Prime Video</span> eredeti programjairól is
+            ismert. A szolgáltatás olyan díjnyertes műsorokat készített, mint a
+            <span lang="en">The Man in the High Castle</span>,
+            <span lang="en">Transparent</span> és
+            <span lang="en">Fleabag</span>, valamint olyan népszerű filmeket is
+            kiadott, mint a <span lang="en">Coming 2 America</span> és a
+            <span lang="en">The Big Sick</span>. Az
+            <span lang="en">Amazon Studios</span>, az
+            <span lang="en">Amazon Prime Video</span> mögött álló produkciós cég
+            arról híres, hogy kreatív kockázatokat vállal és kiváló minőségű
+            tartalmat készít.
+          </p>
+          <p>
+            Az <span lang="en">Amazon Prime Video</span> másik előnye az Amazon
+            e-kereskedelmi platformjával való integráció. Az előfizetők
+            könnyedén hozzáférhetnek a tartalmakhoz
+            <span lang="en">Amazon Fire TV</span>-jükről, valamint
+            számítógépeikről, okostelefonjairól és táblagépeikről. Az
+            <span lang="en">Amazon Prime</span>-tagok exkluzív ajánlatokat és
+            kedvezményeket is igénybe vehetnek az Amazon.com oldalon, beleértve
+            a jogosult termékek ingyenes kétnapos kiszállítását.
+          </p>
+          <p>
+            Az <span lang="en">Amazon Prime Video</span> számos előfizetési
+            lehetőséget kínál, beleértve az
+            <span lang="en">Amazon Prime</span> havi vagy éves előfizetését. A
+            szolgáltatás külön előfizetést is kínál az
+            <span lang="en">Amazon Prime Video</span>
+            szolgáltatásra azok számára, akik nem szeretnének előfizetni az
+            <span lang="en">Amazon Prime</span>-ra.
+          </p>
+          <p>
+            Összefoglalva, az <span lang="en">Amazon Prime Video</span> egy
+            népszerű <span lang="en">streaming</span> szolgáltatás, amely
+            filmek, tévéműsorok és eredeti tartalmak széles választékát kínálja
+            az előfizetőknek szerte a világon. Kiterjedt tartalomkönyvtárával,
+            eredeti programozásával és az Amazon e-kereskedelmi platformjával
+            való integrációjával az
+            <span lang="en">Amazon Prime Video</span> lenyűgöző választás
+            azoknak a nézőknek, akik a tartalom széles skálájához szeretnének
+            hozzáférni saját otthonuk kényelméből.
+          </p>
+        </article>
+        <article>
+          <h2><span lang="en">Disney+</span></h2>
+          <p>
+            A <span lang="en">Disney+</span> egy népszerű
+            <span lang="en">streaming</span> szolgáltatás, amely 2019-ben
+            indult, és gyorsan a <strong><span lang="en">streaming</span> piac</strong> jelentős
+            szereplőjévé vált. A szolgáltatás a
+            <span lang="en">Disney</span> tulajdonosa és üzemeltetője, és
+            családbarát tartalmak széles választékát kínálja az előfizetőknek
+            szerte a világon.
+          </p>
+          <figure>
+            <a href="kepek/share-default.14fadd993578b9916f855cebafb71e62.png">
+              <img
+                src="kepek/share-default.14fadd993578b9916f855cebafb71e62.png"
+                class="img-fluid my-3"
+                title="Disney+ logó"
+                alt="Disney+ logó"
+              />
+            </a>
+          </figure>
+        </article>
+        <article>
+          <h3>Tartalom</h3>
+          <p>
+            A <span lang="en">Disney+</span> egyik fő előnye a
+            <span lang="en">Disney</span>, a <span lang="en">Pixar</span>, a
+            <span lang="en">Marvel</span>, a <span lang="en">Star Wars</span> és
+            a <span lang="en">National Geographic</span> filmjeiből és
+            tévéműsoraiból álló kiterjedt könyvtár. A platform olyan klasszikus
+            <span lang="en">Disney</span>-filmeket kínál, mint az Oroszlánkirály
+            és A kis hableány, valamint az újabb kiadások, mint a
+            <span lang="en">Frozen 2</span> és a <span lang="en">Soul</span>. A
+            <span lang="en">Disney+</span> számos népszerű TV-műsort is kínál,
+            beleértve a <span lang="en">The Simpsons</span> teljes gyűjteményét
+            és az eredeti tartalmakat, mint például a
+            <span lang="en">The Mandalorian</span> és a
+            <span lang="en">WandaVision</span>.
+          </p>
+        </article>
+        <article>
+          <h3>Térhódításának okai</h3>
+          <p>
+            A filmek és tévéműsorok könyvtára mellett a
+            <span lang="en">Disney+</span> jelentős összegeket fektetett be az
+            eredeti tartalom előállításába is. A platform olyan sikerműsorokat
+            készített, mint a <span lang="en">The Mandalorian</span>, a
+            <span lang="en">WandaVision</span> és a
+            <span lang="en">The Falcon and The Winter Soldier</span>, amelyek
+            kritikai elismerést és elkötelezett rajongótábort szereztek. A
+            <span lang="en">Disney+</span> bejelentette a közelgő eredeti
+            műsorok listáját is, köztük olyan népszerű Disney-tulajdonokon
+            alapuló műsorokat, mint a <span lang="en">Star Wars</span>, a
+            <span lang="en">Marvel</span> és a <span lang="en">Toy Story</span>.
+          </p>
+          <p>
+            A <span lang="en">Disney+</span> számos előfizetési lehetőséget
+            kínál, beleértve a havi vagy éves előfizetést. A szolgáltatás
+            <span lang="en">Hulu</span> és
+            <span lang="en">ESPN+</span> csomagcsomagot is kínál azok számára,
+            akik további tartalmakhoz szeretnének hozzáférni. A
+            <span lang="en">Disney+</span> számos eszközön elérhető, beleértve
+            az okostelefonokat, táblagépeket, okostévéket és játékkonzolokat.
+          </p>
+          <p>
+            A <span lang="en">Disney+</span> egyik egyedi jellemzője a
+            családbarát tartalom iránti elkötelezettsége. A platform nagy
+            hangsúlyt fektet arra, hogy minden korosztály számára megfelelő
+            tartalmat kínáljon, így népszerű választás a kisgyermekes családok
+            számára. A platform szülői felügyeletet is kínál, lehetővé téve a
+            szülők számára, hogy besorolások alapján korlátozzák a hozzáférést
+            bizonyos tartalmakhoz.
+          </p>
+          <p>
+            Összefoglalva, a <span lang="en">Disney+</span> egy népszerű
+            <strong><span lang="en">streaming</span> szolgáltatás</strong>, amely a
+            <span lang="en">Disney</span>, a <span lang="en">Pixar</span>, a
+            <span lang="en">Marvel</span>, a <span lang="en">Star Wars</span> és
+            a <span lang="en">National Geographic</span> családbarát
+            tartalmainak széles választékát kínálja. Filmekből és TV-műsorokból
+            álló kiterjedt könyvtárával, valamint az eredeti tartalom gyártása
+            iránti elkötelezettségével a <span lang="en">Disney+</span>
+            népszerű választás lett minden korosztály számára.
+          </p>
+        </article>
+        <article>
+          <h2><span lang="en">HBO Max</span></h2>
+          <p>
+            Az <span lang="en">HBO Max</span> egy népszerű
+            <span lang="en">streaming</span> szolgáltatás, amely 2020 májusában
+            indult. A szolgáltatás tulajdonosa és üzemeltetője a
+            <span lang="en">WarnerMedia</span>, és filmek, tévéműsorok és
+            eredeti tartalmak széles választékát kínálja az Egyesült Államokban
+            élő előfizetőknek.
+          </p>
+          <figure>
+            <a href="kepek/HBO-Max-Emblem.png">
+              <img
+                src="kepek/HBO-Max-Emblem.png"
+                class="img-fluid my-3"
+                title="HBO Max logó"
+                alt="HBO Max logó"
+              />
+            </a>
+          </figure>
+        </article>
+        <article>
+          <h3>Tartalom</h3>
+          <p>
+            Az <span lang="en">HBO Max</span> egyik fő előnye az HBO-tól
+            származó tartalom kiterjedt könyvtára, köztük olyan népszerű
+            műsorok, mint a Trónok harca, a
+            <span lang="en">The Sopranos</span> és a
+            <span lang="en">The Wire</span>. A platform más hálózatokból és
+            stúdiókból származó licencelt tartalmak keverékét, valamint az
+            eredeti programozások egyre szélesebb választékát is kínálja. Az
+            <span lang="en">HBO Max</span> népszerű eredeti műsorai közé
+            tartozik a <span lang="en">Lovecraft Country</span>, a
+            <span lang="en">The Flight Attendant</span> és a
+            <span lang="en">Mare of Easttown</span>.
+          </p>
+        </article>
+        <article>
+          <h3>Térhódításának okai</h3>
+          <p>
+            Az <span lang="en">HBO Max</span> számos filmet is kínál, a
+            klasszikus filmektől az új megjelenésekig. A platform a
+            <span lang="en">Warner Bros. Pictures</span> filmjeinek nagy
+            választékát tartalmazza, beleértve a teljes
+            <span lang="en">Harry Potter</span> sorozatot és olyan népszerű
+            <span lang="en">franchise</span>-okat, mint a Gyűrűk Ura és a
+            <span lang="en">Matrix</span>. Az <span lang="en">HBO Max</span> más
+            stúdiók filmjeit, valamint dokumentumfilmjeit és különlegességeit is
+            kínálja.
+          </p>
+          <p>
+            Az <span lang="en">HBO Max</span> másik előnye az
+            <span lang="en">HBO</span> lineáris hálózatával való integráció. Az
+            előfizetők az <span lang="en">HBO Max</span> alkalmazáson keresztül
+            élő <span lang="en">HBO</span>-műsorokhoz, valamint számos igény
+            szerinti tartalomhoz férhetnek hozzá. Az
+            <span lang="en">HBO Max</span> számos funkciót is kínál, beleértve a
+            személyre szabott ajánlásokat, figyelőlistákat és a tartalom
+            letöltésének lehetőségét
+            <span lang="en">offline</span> megtekintéshez.
+          </p>
+          <p>
+            Az <span lang="en">HBO Max</span> számos előfizetési lehetőséget
+            kínál, beleértve a havi vagy éves előfizetést. A platform
+            kedvezményes előfizetést is kínál azoknak, akik kábeles vagy
+            műholdas szolgáltatón keresztül fizetnek elő az
+            <span lang="en">HBO</span>-ra. Az
+            <span lang="en">HBO Max</span> számos eszközön elérhető, beleértve
+            az okostelefonokat, táblagépeket, okostévéket és játékkonzolokat.
+          </p>
+          <p>
+            Összefoglalva, az <span lang="en">HBO Max</span> egy népszerű
+            <span lang="en">streaming</span> szolgáltatás, amely filmek,
+            tévéműsorok és eredeti tartalmak széles választékát kínálja az
+            Egyesült Államokban élő előfizetőknek. Az
+            <span lang="en">HBO</span> és a
+            <span lang="en">Warner Bros. Pictures</span> széles tartalomtárával,
+            valamint az eredeti műsorok növekvő választékával az
+            <span lang="en">HBO Max</span> népszerű választássá vált azon nézők
+            körében, akik saját otthonuk kényelméből szeretnének jó minőségű
+            tartalmat elérni.
+          </p>
+        </article>
+        <article>
+          <h2><span lang="en">SkyShowtime</span></h2>
+          <p>
+            A <span lang="en">SkyShowtime</span> egy új
+            <span lang="en">streaming</span> szolgáltatás, amely a
+            <span lang="en">Comcast's Sky</span> és a
+            <span lang="en">ViacomCBS</span> közös vállalkozása. A platform
+            2022-ben indul, és számos tévéműsort és filmet kínál majd az európai
+            előfizetőknek.
+          </p>
+          <figure>
+            <a href="kepek/SkyShowtime-logo.jpg">
+              <img
+                src="kepek/SkyShowtime-logo.jpg"
+                class="img-fluid my-3"
+                title="SkyShowtime logó"
+                alt="Skyshowtime logó"
+              />
+            </a>
+          </figure>
+        </article>
+        <article>
+          <h3>Tartalom</h3>
+          <p>
+            A <span lang="en">SkyShowtime</span> a <span lang="en">Sky</span> és
+            a <span lang="en">ViacomCBS</span> hatalmas programkönyvtárának
+            tartalmainak keverékét kínálja majd. A platform várhatóan olyan
+            népszerű TV-műsorokat kínál majd, mint a
+            <span lang="en">The Crown</span>, a
+            <span lang="en">Billions</span> és a
+            <span lang="en">Ray Donovan</span>, valamint olyan nagy stúdiók
+            filmjeit, mint a <span lang="en">Paramount Pictures</span> és az
+            <span lang="en">MGM</span>.
+          </p>
+        </article>
+        <article>
+          <h3>Térhódításának okai</h3>
+          <p>
+            A <span lang="en">SkyShowtime</span> egyik egyedülálló tulajdonsága,
+            hogy a helyi programozásra összpontosít. A platform azt tervezi,
+            hogy számos eredeti műsort kínál helyi termelőktől és alkotóktól,
+            valamint olyan tartalmat, amely a különböző régiók előfizetőinek
+            egyedi igényeihez és érdeklődéséhez igazodik.
+          </p>
+          <p>
+            A <span lang="en">SkyShowtime</span> számos előfizetési lehetőséget
+            is kínál, beleértve a havi vagy éves előfizetést. A platform számos
+            eszközön elérhető lesz, köztük okostelefonokon, táblagépeken,
+            okostévéken és játékkonzolokon.
+          </p>
+          <p>
+            Összefoglalva, a <span lang="en">SkyShowtime</span> egy közelgő
+            <span lang="en">streaming</span> szolgáltatás, amely 2022-ben indul.
+            A platform a <span lang="en">Sky</span> és a
+            <span lang="en">ViacomCBS</span> TV-műsorainak és filmeinek
+            keverékét, valamint a helyi alkotók eredeti műsorait kínálja majd. A
+            helyi programozásra és a személyre szabott tartalmakra
+            összpontosítva a <span lang="en">SkyShowtime</span>
+            potenciálisan népszerű választássá válhat azon európai nézők
+            számára, akik a világ minden tájáról szeretnének jó minőségű
+            tartalmat elérni.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top px-4 mt-auto"
+    >
+      <div class="d-flex align-items-center">
+        <a
+          href="https://www.facebook.com/profile.php?id=100078412884013"
+          class="footer-link"
+          target="_blank"
+          >© Készítette: Gerzsenyi Patrik</a
+        >
+      </div>
+      <div class="d-flex align-items-center">
+        <object
+          class="github-svg"
+          type="image/svg+xml"
+          data="ikonok/github-mark.svg"
+        >
+          Github logó
+        </object>
+        <a href="https://github.com/vyperrrr" class="footer-link" target="_blank">
+          @vyperrrr
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
